@@ -99,6 +99,12 @@ form {
   outline: 2px solid white;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
 .letter {
   width: 40px;
   height: 40px;
@@ -116,6 +122,10 @@ form {
 
 .purple {
   --color: #633bbc;
+}
+
+.green {
+  --color: #07847e;
 }
 
 .person {
