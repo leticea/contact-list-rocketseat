@@ -6,7 +6,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body {
+html,
+body {
   overflow: hidden;
 }
 
@@ -109,6 +110,15 @@ form {
   gap: 52px;
   height: 75vh;
   overflow-y: scroll;
+}
+
+.contacts::-webkit-scrollbar {
+  width: 8px;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+  background: #282843;
+  border-radius: 999px;
 }
 
 .letter {
