@@ -36,3 +36,12 @@ ul {
 .items-center {
   align-items: center;
 }
+
+header h2 {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+nav {
+  justify-content: space-between;
+}
