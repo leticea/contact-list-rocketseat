@@ -11,3 +11,28 @@ body,
 input {
   font-family: "Roboto", sans-serif;
 }
+
+body {
+  color: #e1e1e6;
+  background-color: #1a1924;
+}
+
+header {
+  background-color: #16151e;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  padding: 40px;
+}
+
+.items-center {
+  align-items: center;
+}
