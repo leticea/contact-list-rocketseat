@@ -94,3 +94,7 @@ form {
 .input-wrapper input::placeholder {
   color: #e1e1e6;
 }
+
+.input-wrapper:focus-within {
+  outline: 2px solid white;
+}
