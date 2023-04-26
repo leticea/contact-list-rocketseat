@@ -108,6 +108,12 @@ Projetos #boraCodar da [Rocketseat](https://boracodar.dev/).
       <td><a href="https://github.com/leticea/credit-card-form">🔗</a></td>
     </tr>
     <tr>
+      <td>14</td>
+      <td>Upload Component</td>
+      <td>12/04/23</td>
+      <td><a href="https://github.com/leticea/upload-page">🔗</a></td>
+    </tr>
+    <tr>
       <td>15</td>
       <td>Pricing Table</td>
       <td>19/04/23</td>
