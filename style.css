@@ -6,6 +6,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  overflow: hidden;
+}
+
 html,
 body,
 input {
@@ -103,6 +107,8 @@ form {
   display: flex;
   flex-direction: column;
   gap: 52px;
+  height: 75vh;
+  overflow-y: scroll;
 }
 
 .letter {
@@ -126,6 +132,22 @@ form {
 
 .green {
   --color: #07847e;
+}
+
+.pink {
+  --color: #9a00b3;
+}
+
+.blue {
+  --color: #0088b3;
+}
+
+.yellow {
+  --color: #b38c00;
+}
+
+.red {
+  --color: #cf0e0e;
 }
 
 .person {
