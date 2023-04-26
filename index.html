@@ -18,7 +18,7 @@
       <nav class="flex items-center">
         <h2>Meus contatos</h2>
 
-        <ul>
+        <ul class="flex items-center">
           <li>
             <ion-icon name="add"></ion-icon>
           </li>
@@ -31,9 +31,21 @@
             <ion-icon name="trash"></ion-icon>
           </li>
         </ul>
-        
       </nav>
+
+      <form>
+        <div>
+          <label class="sr-only" for="filter">Busque por nome ou dados de contato</label>
+          <ion-icon name="search-outline"></ion-icon>
+          <input
+            id="filter"
+            type="text"
+            placeholder="Busque por nome ou dados de contato..."
+          />
+        </div>
+      </form>
     </header>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
